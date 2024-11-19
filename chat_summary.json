@@ -1,5 +1,11 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a button that alerts the user when clicked\", \"checked\": true}, {\"feature\": \"Enhance button design with animations\", \"checked\": false}, {\"feature\": \"Display confirmation message after the button is clicked\", \"checked\": false}, {\"feature\": \"Change button color based on interaction (hover, click)\", \"checked\": false}, {\"feature\": \"Provide feedback with sounds on button press\", \"checked\": false}], \"input_token_count\": 278, \"output_token_count\": 101, \"time_taken\": \"0:00:01.897385\"}",
+        "timestamp": "19112024185527",
+        "message_id": "guest19112024185517"
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What text do you want on the button?\", \"option1\": \"Click me!\", \"option2\": \"Alert me!\"}, {\"question 2\": \"What message do you want the alert to display?\", \"option1\": \"Hello, this is a kitten wearing mittens!\", \"option2\": \"You've clicked the alert button!\"}], \"input_token_count\": 324, \"output_token_count\": 83, \"time_taken\": \"0:00:01.652752\"}",
         "timestamp": "19112024185523",
