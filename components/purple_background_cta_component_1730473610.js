@@ -13,7 +13,13 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
               Step into a world where whiskers meet haute couture! Our paw-some collection of feline fashion will have you feline fine. From dapper bow ties to purr-fect party hats, we've got the cat's meow in style!
             </p></div> <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">
             Pounce on Style!
-            <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a></div></div></div></section>
+            <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></a>
+
+          <button id="alert-button" class="btn mt-4 transition duration-150 ease-in-out group text-white bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-500 hover:to-pink-400 rounded-lg px-4 py-2 shadow-lg" @click="showAlert">
+            <i class='bx bx-bell mr-2'></i>
+            Meow Alert!
+          </button>
+        </div>
 </template>
 
 <script>
@@ -24,6 +30,13 @@ export default {
       expanded: false,
       tab: null
     };
+  },
+  methods: {
+    // Alert method
+    showAlert() {
+      alert("Meow! You've activated the cat-tastic alert!");
+    }
+    // End of Alert method
   }
 };
 </script>
