@@ -1,5 +1,11 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What text do you want on the button?\", \"option1\": \"Click me!\", \"option2\": \"Alert me!\"}, {\"question 2\": \"What message do you want the alert to display?\", \"option1\": \"Hello, this is a kitten wearing mittens!\", \"option2\": \"You've clicked the alert button!\"}], \"input_token_count\": 324, \"output_token_count\": 83, \"time_taken\": \"0:00:01.652752\"}",
+        "timestamp": "19112024185523",
+        "message_id": "guest19112024185517"
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Okay, I\u2019ll implement a button that triggers an alert.",
         "timestamp": "19112024185518",
