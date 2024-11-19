@@ -1,5 +1,11 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What tone do you want the catchy copy to convey?\", \"option1\": \"Fun and playful\", \"option2\": \"Informative and engaging\"}, {\"question 2\": \"Do you have any specific phrases or keywords you'd like included in the copy?\", \"option1\": \"Yes, I have specific ideas\", \"option2\": \"No, I'm open to suggestions\"}], \"input_token_count\": 290, \"output_token_count\": 89, \"time_taken\": \"0:00:01.352768\"}",
+        "timestamp": "19112024185359",
+        "message_id": "guest19112024185353"
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I\u2019m enhancing the copy to make it catchier.",
         "timestamp": "19112024185354",
